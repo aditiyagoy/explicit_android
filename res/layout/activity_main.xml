@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nama"
+        android:layout_marginBottom="@dimen/jarak_tepi_vertikal"
+        android:gravity="center"/>
+    <ImageButton
+        android:id = "@+id/imgbtn_phone"
+        android:layout_marginTop="@dimen/jarak_tepi_vertikal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/jarak_tepi_vhorizontal_50dp"
+        android:src="@drawable/phone"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/telepon"
+        android:layout_marginBottom="@dimen/jarak_tepi_vertikal"
+        android:layout_marginLeft="@dimen/jarak_tepi_vhorizontal_50dp"
+        />
+    <ImageButton
+        android:id = "@+id/imgbtn_usia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/jarak_tepi_vhorizontal_50dp"
+        android:src="@drawable/usia"
+        />
+
+    <TextView
+        android:id="@+id/tv_usia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tebakan Anda Keluar Angkanya Disini"
+        android:layout_marginBottom="@dimen/jarak_tepi_vertikal"
+        android:layout_marginLeft="@dimen/jarak_tepi_vhorizontal_50dp"
+        android:gravity="left"/>
+
+</LinearLayout>

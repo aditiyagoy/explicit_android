@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="jarak_tepi_vertikal" >16dp</dimen>
+    <dimen name="jarak_tepi_vhorizontal_50dp" >50dp</dimen>
+    <dimen name="margin_horizontal" >16dp</dimen>
+</resources>
